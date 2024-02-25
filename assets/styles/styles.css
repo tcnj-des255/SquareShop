@@ -285,3 +285,17 @@ grid-column: 1 / span 1;
 grid-row: 1 / span 3;
 font-size: 32px;
 }
+
+.buy-button {
+    background-color: teal;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.buy-button:hover {
+    background-color: darkslategray;
+}
