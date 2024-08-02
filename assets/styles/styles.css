@@ -1,112 +1,18 @@
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     margin: 0;
 }
 
 main {
     padding: 100px 10%;
-    background-color: antiquewhite;
-}
-
-footer {
-    padding: 100px 10%;
-    background-color: darkslategray;
-   
-}
-
-/* navigation */
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: teal;
-    padding: 20px 10%;
-    align-items: center;
-}
-
-#main-menu {
-    display: flex;
-    color: white; 
-    gap: 20px;
-}
-
-menu li {
-    list-style: none;
-   
-}
-
-#main-menu button {
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0px;
-    color: white;
-  
-}
-
-
-
-#main-menu a {
-    color: white;
-    text-decoration: none;
-}
-
-.dropdown-menu {
-    background-color: bisque;
-    position: absolute;
- display: none; 
-    z-index: 1;
-   margin: 0px;
-   padding: 10px;
-    
-    
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-    
-
-}
-
-#main-menu li button:hover, #main-menu > li > a:hover {
-    color: bisque;
-    text-decoration: underline;
-}
-
-#main-menu .dropdown-menu a:hover {
-    text-decoration: underline;
-}
-
-
-
-#main-menu .dropdown-menu a {
-
-    color: teal;
-    padding-block: 10px;
-    display: inline-block;
-
-}
-
-menu {
-font-size: 20px;
-font-weight: bold;
-}
-
-
-
-.logo {
-    font-size: 32px;
-    font-family: 'Lilita One', sans-serif;
-    color: white;
-    text-decoration: none;
+    background-color: paleturquoise;
 }
 
 
 /* text */
 h1, h2 {
-    font-family: 'Lilita One', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: darkslategray;
+    font-family: 'Helvetica';
+    color: midnightblue;
 }
 
 h1 {
@@ -221,81 +127,3 @@ align-items: center;
     flex: 1;
     
    }
-
-/* footer */
-
-footer {
-    color: white;
-    text-align: center;
-}
-
-/*red square page */
-
-#red-square-page h1 {
-    margin: 0px;
-}
-
-#red-square-page #welcome span {
-font-family: 'Lilita One';
-font-size: 28px;
-color: teal;
-}
-
-#benefits > div {
-    display: flex;
-    font-size: 24px;
-    font-weight: bold;
-    color:white;
-    gap: 50px;
-    justify-content: space-between;
-}
-
-#benefits figure {
-    margin: 0px;
-    background-color: teal;
-    flex: 1;
-    border-radius: 10px;
-    padding: 30px;
-   text-align: center;
-}
-
-#reviews > div {
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
-gap: 20px;
-}
-
-#reviews figure {
-    background-color: white;
-    border: 2px solid teal;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 0px;
-    font-size: 24px;
-    font-style: italic;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-#reviews figure:first-child {
-grid-column: 1 / span 1;
-grid-row: 1 / span 3;
-font-size: 32px;
-}
-
-.buy-button {
-    background-color: teal;
-    padding: 10px 30px;
-    border-radius: 5px;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.buy-button:hover {
-    background-color: darkslategray;
-}
